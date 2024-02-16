@@ -10,6 +10,6 @@ public class SBController {
 
     @GetMapping("/greeting")
     public String greeting(){
-        return "Hello Pannu";
+        return "Hello Pannu \n How are you";
     }
 }
